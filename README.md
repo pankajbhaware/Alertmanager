@@ -1,10 +1,12 @@
 ## Install Alertmanager
-```
+
 ```
 wget https://github.com/prometheus/alertmanager/releases/download/v0.18.0/alertmanager-0.18.0.linux-amd64.tar.gz
 ```
 ```
 ## Extract the files from the archive.
+```
+```
 tar xvzf alertmanager-0.18.0.linux-amd64.tar.gz
 ```
 ```
@@ -13,7 +15,9 @@ cd alertmanager-0.18.0.linux-amd64/
 ```
 sudo mv amtool alertmanager /usr/local/bin
 ```
+```
 sudo mkdir -p /etc/alertmanager
+```
 ```
 sudo mv alertmanager.yml /etc/alertmanager
 ```
