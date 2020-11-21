@@ -3,6 +3,7 @@
 ```
 wget https://github.com/prometheus/alertmanager/releases/download/v0.18.0/alertmanager-0.18.0.linux-amd64.tar.gz
 ```
+```
 ## Extract the files from the archive.
 tar xvzf alertmanager-0.18.0.linux-amd64.tar.gz
 ```
@@ -30,7 +31,8 @@ sudo chown -R alertmanager:alertmanager/data/alertmanager /etc/alertmanager/*
 ```
 ```
 cd /lib/systemd/system
-
+```
+```
 ## Create alertmanager.service file and add these configuration 
 ```
 ```
